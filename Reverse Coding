@@ -1,0 +1,16 @@
+int main()
+{
+	int t,a,b;
+	scanf("%d",&t);
+	for(int i=0;i<t;i++)
+	{
+	    scanf("%d",&a);
+	    scanf("%d",&b);
+	    float d=a/2.0;
+	    if(a*d+d==b)
+	    printf("1\n");
+	    else
+	    printf("0\n");
+	}
+	return 0;
+}
